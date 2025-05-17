@@ -1,6 +1,49 @@
 [
     {
         "categories": [
+            "library"
+        ],
+        "doap": null,
+        "name": "as3xmppclient",
+        "platforms": [
+            "ActionScript",
+            "Flash"
+        ],
+        "url": "https://github.com/lyokato/as3xmppclient"
+    },
+    {
+        "categories": [
+            "client"
+        ],
+        "doap": null,
+        "name": "Beem",
+        "platforms": [
+            "Android"
+        ],
+        "url": "https://elyzion.net/projects/beem"
+    },
+    {
+        "categories": [
+            "client"
+        ],
+        "doap": "https://codeberg.org/kriztan/blabber.im/raw/branch/master/blabber.im.doap",
+        "name": "blabber.im",
+        "platforms": [],
+        "url": null
+    },
+    {
+        "categories": [
+            "client"
+        ],
+        "doap": null,
+        "name": "Candy",
+        "platforms": [
+            "Browser"
+        ],
+        "url": "https://candy-chat.github.io/candy/"
+    },
+    {
+        "categories": [
             "client"
         ],
         "doap": null,
@@ -8,7 +51,7 @@
         "platforms": [
             "Windows"
         ],
-        "url": "http://coversant.com"
+        "url": "https://web.archive.org/web/20150912062944/http://www.coversant.com/products/soapbox-communicator"
     },
     {
         "categories": [
@@ -19,7 +62,73 @@
         "platforms": [
             "Windows"
         ],
-        "url": "http://coversant.com"
+        "url": "https://web.archive.org/web/20160112201410/http://www.coversant.com/products/soapbox-server"
+    },
+    {
+        "categories": [
+            "library"
+        ],
+        "doap": null,
+        "name": "Echomine Feridian",
+        "platforms": [
+            "Java"
+        ],
+        "url": "https://github.com/jdevelop/feridian"
+    },
+    {
+        "categories": [
+            "library"
+        ],
+        "doap": null,
+        "name": "emite",
+        "platforms": [
+            "Java"
+        ],
+        "url": "https://github.com/EmiteGWT/emite"
+    },
+    {
+        "categories": [
+            "library"
+        ],
+        "doap": null,
+        "name": "headstock",
+        "platforms": [
+            "Python"
+        ],
+        "url": "https://github.com/Lawouach/headstock"
+    },
+    {
+        "categories": [
+            "library"
+        ],
+        "doap": null,
+        "name": "hsxmpp",
+        "platforms": [
+            "Haskell"
+        ],
+        "url": "http://\u05d7\u05e0\u05d5\u05da.se/hsxmpp"
+    },
+    {
+        "categories": [
+            "server"
+        ],
+        "doap": null,
+        "name": "iChat Server",
+        "platforms": [
+            "macOS"
+        ],
+        "url": "https://www.apple.com"
+    },
+    {
+        "categories": [
+            "library"
+        ],
+        "doap": null,
+        "name": "iksemel",
+        "platforms": [
+            "C"
+        ],
+        "url": "https://github.com/meduketto/iksemel"
     },
     {
         "categories": [
@@ -28,7 +137,7 @@
         "doap": null,
         "name": "IM Observatory",
         "platforms": [],
-        "url": null
+        "url": "https://web.archive.org/web/20221024202306/https://xmpp.net"
     },
     {
         "categories": [
@@ -40,7 +149,18 @@
             "iOS",
             "macOS"
         ],
-        "url": "https://www.shape.ag/en/"
+        "url": "https://www.plus.im"
+    },
+    {
+        "categories": [
+            "server"
+        ],
+        "doap": null,
+        "name": "in.jabberd",
+        "platforms": [
+            "Linux"
+        ],
+        "url": "https://github.com/bobintetley/inetdxtra/tree/master/in.jabberd"
     },
     {
         "categories": [
@@ -51,7 +171,44 @@
         "platforms": [
             "Java"
         ],
-        "url": "https://java.net/projects/jso"
+        "url": "https://web.archive.org/web/20160312110355/https://java.net/projects/jso"
+    },
+    {
+        "categories": [
+            "server"
+        ],
+        "doap": null,
+        "name": "Jabber XCP",
+        "platforms": [
+            "Linux",
+            "Solaris",
+            "Windows"
+        ],
+        "url": "https://www.cisco.com/c/en/us/products/unified-communications/jabber-extensible-communications-platform-xcp/index.html"
+    },
+    {
+        "categories": [
+            "library"
+        ],
+        "doap": null,
+        "name": "Jabber-Net",
+        "platforms": [
+            ".net",
+            "C#",
+            "Mono"
+        ],
+        "url": "https://github.com/xmppo/Jabber-Net"
+    },
+    {
+        "categories": [
+            "library"
+        ],
+        "doap": null,
+        "name": "jabber.py",
+        "platforms": [
+            "Python"
+        ],
+        "url": "https://jabberpy.sourceforge.net"
     },
     {
         "categories": [
@@ -64,7 +221,7 @@
             "macOS",
             "Windows"
         ],
-        "url": "https://www.jabbim.com"
+        "url": "https://web.archive.org/web/20130122003235/http://dev.jabbim.cz/jabbim/wiki/en/index"
     },
     {
         "categories": [
@@ -76,7 +233,40 @@
             "Linux",
             "Windows"
         ],
-        "url": "http://j-livesupport.com"
+        "url": "https://web.archive.org/web/20220202105402/http://www.j-livesupport.com"
+    },
+    {
+        "categories": [
+            "library"
+        ],
+        "doap": null,
+        "name": "jQuery-XMPP-plugin",
+        "platforms": [
+            "JavaScript"
+        ],
+        "url": "https://github.com/maxpowel/jQuery-XMPP-plugin"
+    },
+    {
+        "categories": [
+            "client"
+        ],
+        "doap": null,
+        "name": "JWChat",
+        "platforms": [
+            "Browser"
+        ],
+        "url": "https://github.com/sstrigler/jwchat"
+    },
+    {
+        "categories": [
+            "client"
+        ],
+        "doap": null,
+        "name": "Kaiwa",
+        "platforms": [
+            "Browser"
+        ],
+        "url": "https://github.com/getkaiwa/kaiwa"
     },
     {
         "categories": [
@@ -87,7 +277,18 @@
         "platforms": [
             "Windows"
         ],
-        "url": "http://www.kwickserver.info/cms/"
+        "url": "https://web.archive.org/web/20190706094016/https://www.kwickserver.info/cms/"
+    },
+    {
+        "categories": [
+            "library"
+        ],
+        "doap": null,
+        "name": "Lightr",
+        "platforms": [
+            "PHP"
+        ],
+        "url": "https://github.com/myYearbook/lightr"
     },
     {
         "categories": [
@@ -98,7 +299,29 @@
         "platforms": [
             "C++"
         ],
-        "url": null
+        "url": "https://web.archive.org/web/20101113053809/http://www.openaether.org/oajabber.html"
+    },
+    {
+        "categories": [
+            "client"
+        ],
+        "doap": null,
+        "name": "Pandion",
+        "platforms": [
+            "Windows"
+        ],
+        "url": "https://github.com/pandion/pandion"
+    },
+    {
+        "categories": [
+            "library"
+        ],
+        "doap": null,
+        "name": "pyxmpp",
+        "platforms": [
+            "Python"
+        ],
+        "url": "https://github.com/Jajcus/pyxmpp"
     },
     {
         "categories": [
@@ -109,7 +332,77 @@
         "platforms": [
             "Windows"
         ],
-        "url": "http://forum.qip.ru"
+        "url": "https://web.archive.org/web/20180828002258/http://forum.qip.ru"
+    },
+    {
+        "categories": [
+            "library"
+        ],
+        "doap": null,
+        "name": "seesmic-as3-xmpp",
+        "platforms": [
+            "ActionScript",
+            "Flash"
+        ],
+        "url": "https://code.google.com/archive/p/seesmic-as3-xmpp"
+    },
+    {
+        "categories": [
+            "client"
+        ],
+        "doap": null,
+        "name": "Sim-IM",
+        "platforms": [
+            "FreeBSD",
+            "Linux",
+            "Windows"
+        ],
+        "url": "http://www.sim-im.org"
+    },
+    {
+        "categories": [
+            "library"
+        ],
+        "doap": null,
+        "name": "SleekXMPP",
+        "platforms": [
+            "Python"
+        ],
+        "url": "https://github.com/fritzy/SleekXMPP"
+    },
+    {
+        "categories": [
+            "client"
+        ],
+        "doap": null,
+        "name": "Soashable",
+        "platforms": [
+            "Browser"
+        ],
+        "url": "https://soashable.sourceforge.net/soashable-web/"
+    },
+    {
+        "categories": [
+            "client"
+        ],
+        "doap": null,
+        "name": "SparkWeb",
+        "platforms": [
+            "Browser"
+        ],
+        "url": "http://www.igniterealtime.org/projects/sparkweb/"
+    },
+    {
+        "categories": [
+            "client"
+        ],
+        "doap": null,
+        "name": "StepChat",
+        "platforms": [
+            "FreeBSD",
+            "Linux"
+        ],
+        "url": "https://github.com/etoile/StepChat"
     },
     {
         "categories": [
@@ -120,6 +413,95 @@
         "platforms": [
             "Mobile"
         ],
-        "url": "http://talkonaut.com"
+        "url": "https://web.archive.org/web/20211226093903/http://talkonaut.com"
+    },
+    {
+        "categories": [
+            "library"
+        ],
+        "doap": null,
+        "name": "txmpp",
+        "platforms": [
+            "C++"
+        ],
+        "url": "https://github.com/rpavlik/txmpp"
+    },
+    {
+        "categories": [
+            "library"
+        ],
+        "doap": null,
+        "name": "XIFF",
+        "platforms": [
+            "ActionScript",
+            "Flash"
+        ],
+        "url": "http://www.igniterealtime.org/projects/xiff/"
+    },
+    {
+        "categories": [
+            "library"
+        ],
+        "doap": null,
+        "name": "xmpp-psn",
+        "platforms": [
+            "Python"
+        ],
+        "url": "https://code.google.com/archive/p/xmpp-psn"
+    },
+    {
+        "categories": [
+            "library"
+        ],
+        "doap": null,
+        "name": "xmpp4js",
+        "platforms": [
+            "JavaScript"
+        ],
+        "url": "https://xmpp4js.sourceforge.net"
+    },
+    {
+        "categories": [
+            "library"
+        ],
+        "doap": null,
+        "name": "xmpp4r-simple",
+        "platforms": [
+            "Ruby"
+        ],
+        "url": "https://github.com/blaine/xmpp4r-simple"
+    },
+    {
+        "categories": [
+            "client"
+        ],
+        "doap": null,
+        "name": "xmppchat",
+        "platforms": [
+            "Browser"
+        ],
+        "url": "https://cgit.babelmonkeys.de/?p=xmppchat.git;a=summary"
+    },
+    {
+        "categories": [
+            "library"
+        ],
+        "doap": null,
+        "name": "XMPPKit",
+        "platforms": [
+            "Objective-C"
+        ],
+        "url": "https://github.com/etoile/XMPPKit"
+    },
+    {
+        "categories": [
+            "client"
+        ],
+        "doap": null,
+        "name": "XMPPWebChat",
+        "platforms": [
+            "Browser"
+        ],
+        "url": "https://github.com/udayg/xmppwebchat"
     }
 ]

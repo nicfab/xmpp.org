@@ -28,7 +28,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: "3.13"
 
       - name: Install Python packages
         run: pip install -r tools/requirements.txt
@@ -47,6 +47,7 @@ jobs:
       - name: Software list linting
         run: |
           python tools/lint_software_list.py software.json
+          python tools/lint_software_list.py software_archive.json
 
       - name: Prepare XEP list
         run: python tools/prepare_xep_list.py
@@ -63,7 +64,7 @@ jobs:
       - name: Set up Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.123.0'
+          hugo-version: "0.145.0"
 
       - name: Build website
         run: hugo

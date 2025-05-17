@@ -8,17 +8,15 @@ layout: single_xsf
 
 ### XSF Chair{#chair}
 
-Chairman of the XSF is Ralph Meijer. Ralph is the lead developer of several Jabber-related projects and services, including Wokkel and the XMPP support in Twisted, the Idavoll pubsub component, and Planet Jabber. Ralph has been member of the XMPP Council from 2004 to 2013 and Director since 2013. You can find him on [Twitter](http://twitter.com/ralphm) and chat with him on [XMPP](xmpp:ralphm@ik.nu)
+Chairman of the XSF is Ralph Meijer. Ralph is an independent consultant for Nuntians Services B.V., working on real-time communications systems, event-driven architectures, and observability. He is the lead developer of several XMPP related projects and services, including Wokkel and the XMPP support in Twisted, the Idavoll pubsub component, and Planet Jabber. Ralph has been member of the XMPP Council from 2004 to 2013 and Director since 2013. You can contact him via [email](mailto:ralphm@ik.nu) or [XMPP](xmpp:ralphm@ik.nu).
 
 ### Executive Director{#executive-director}
 
-The current Executive Director of the XSF is Matthew Wild. Matthew has served as a director since 2016, and prior to that on the XMPP Council 2009-2016. As well as contributions to the protocol, Matthew founded, and continues to develop, XMPP-related software projects such as [Prosody](https://prosody.im/) and [Snikket](https://snikket.org/). You can contact Matthew via [XMPP](xmpp:me@matthewwild.co.uk) or [email](mailto:me@matthewwild.co.uk).
+The current Executive Director of the XSF is Matthew Wild. Matthew has served as executive director since 2017, and prior to that on the XMPP Council 2009-2016. As well as contributions to the protocol, Matthew founded, and continues to develop, XMPP-related software projects such as [Prosody](https://prosody.im/) and [Snikket](https://snikket.org/). You can contact Matthew via [XMPP](xmpp:me@matthewwild.co.uk) or [email](mailto:me@matthewwild.co.uk).
 
 ### XSF Treasurer{#treasurer}
 
-The treasurer of the XSF is Peter Saint-Andre. Peter has served as executive director of the XMPP Standards Foundation for 15 years, from 2002-2017. He has been contributing to the Jabber/XMPP developer community since late 1999, where he has focused on documentation and standardization as author of the XMPP RFCs, numerous XMPP extension protocols, and XMPP: The Definitive Guide (O’Reilly, 2009).
-
-Peter’s weblog is published at [stpeter.im](https://stpeter.im) and syndicated at [Planet Jabber](https://planet.jabber.org). His contact information is available at [https://stpeter.im/contact.html](https://stpeter.im/contact.html).
+The treasurer of the XSF is Peter Saint-Andre. Peter served as executive director of the XMPP Standards Foundation for 15 years, from 2002-2017. He has been contributing to the Jabber/XMPP developer community since late 1999, where he has focused on documentation and standardization as author of the XMPP RFCs, numerous XMPP extension protocols, and XMPP: The Definitive Guide (O’Reilly, 2009). Peter can be contacted via [XMPP](xmpp:stpeter@jabber.org) or [email](mailto:stpeter@stpeter.im).
 
 ### XSF Secretary{#secretary}
 

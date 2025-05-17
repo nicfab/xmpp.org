@@ -106,6 +106,7 @@
             </thead>
             <tbody>
                 {{- if .Site.Data.xeplist -}}
+                    {{- $xeplist := .Site.Data.xeplist -}}
                     {{- range sort .Site.Data.xeplist ".number" -}}
                         {{- $number_str := printf "%04g" .number -}}
                         {{ $last_revision_date := .last_revision_date | time }}
@@ -118,10 +119,37 @@
 
                         <tr class="XEP-{{ .status }} {{ if $xep_dormant }} XEP-Dormant{{ end }}" id="xep{{- $number_str -}}" data-shortname="{{- .shortname -}}">
                             <td><a href="/extensions/xep-{{- $number_str -}}.html">XEP-{{- $number_str -}}</a></td>
-                            <td>{{- .title -}}</td>
-                            <td>{{- .type -}}</td>
-                            <td>{{- .status -}}</td>
-                            <td>{{- .last_revision_date -}}</td>
+                            <td>
+                                <span>{{- .title -}}</span>{{- if .shortname -}}<span class="ms-1 text-muted small">[{{- .shortname -}}]</span>{{- end -}}
+                                {{- if .supersededby -}}
+                                    <br>
+                                    <span class="text-muted small">Superseded by:&nbsp;</span>
+                                    <span class="text-muted small">
+                                        {{- range $index, $content := .supersededby -}}
+                                            {{- if $index -}}
+                                                ,&nbsp;
+                                            {{- end -}}
+                                            {{- if hasPrefix (. | lower) "xep-" -}}
+                                                {{- $xep_number := trim (. | lower) "xep-" -}}
+                                                {{- $trimmed_xep_number := int (trim (. | lower) "xep-" | replaceRE "^0+" "") -}}
+                                                {{- $spec := . -}}
+                                                {{- range $xeplist -}}
+                                                    {{- if eq (int .number) $trimmed_xep_number -}}
+                                                        <a href="#xep{{- $xep_number -}}">{{- print ($spec | upper) ": " .title -}}</a>
+                                                    {{- end -}}
+                                                {{- end -}}
+                                            {{- else if hasPrefix (. | lower) "rfc" -}}
+                                                <a href="https://datatracker.ietf.org/doc/{{- replaceRE "(\\s)" "" . | lower -}}/" target="_blank">{{ print "RFC " (index (findRE `\d{4}` . 1) 0) }}&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                                            {{- else -}}
+                                                <span>{{- . -}}</span>
+                                            {{- end -}}
+                                        {{- end -}}
+                                    </span>
+                                {{- end -}}
+                            </td>
+                            <td class="text-nowrap">{{- .type -}}</td>
+                            <td class="text-nowrap">{{- .status -}}</td>
+                            <td class="text-nowrap">{{- .last_revision_date -}}</td>
                             <td>
                                 {{- range .tags -}}
                                     <span class="badge rounded-pill text-bg-secondary mx-1">{{- . -}}</span>
@@ -168,17 +196,17 @@
 </div>
 <div class="offcanvas offcanvas-end extensions-offcanvas" tabindex="-1" id="implementations-offcanvas" aria-labelledby="implementations-offcanvas-label">
     <div class="offcanvas-header align-items-start pb-0">
-        <h5 id="implementations-heading" class="offcanvas-title" id="implementations-offcanvas-label"></h5>
+        <a id="implementations-heading" class="offcanvas-title text-reset fw-bold fs-5" id="implementations-offcanvas-label"></a>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
-    <div class="offcanvas-body">
-        <span id="implementations-description" class="d-block small mb-2 text-muted"></span>
+    <div class="offcanvas-body pt-1">
+        <span id="implementations-description" class="d-block small mb-3 text-muted"></span>
         <table id="implementations-table">
             <thead>
                 <tr>
                     <th>Name</th>
-                    <th title="Implementation status" data-bs-toggle="tooltip">Status</th>
-                    <th title="Implemented since version" data-bs-toggle="tooltip">Since Version</th>
+                    <th title="Software implementation status of this XEP" data-bs-toggle="tooltip">Status</th>
+                    <th title="Software implemented this XEP since software version" data-bs-toggle="tooltip">Since Version</th>
                     <th title="Implemented XEP version" data-bs-toggle="tooltip">XEP Version</th>
                 </tr>
             </thead>

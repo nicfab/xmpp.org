@@ -81,8 +81,7 @@
 
         {
             "name": "Travis Burtrum",
-            "jids": ["travis@burtrum.org"],
-            "roles": ["council"]
+            "jids": ["travis@burtrum.org"]
         },
 
         {
@@ -92,18 +91,14 @@
         },
 
         {
-            "name": "Nicolas Cedilnik",
-            "jids": ["nicoco@nicoco.fr"]
-        },
-
-        {
             "name": "Davide Conzon",
             "jids": ["co_davde@xmpp.jp", "codavide@xabber.org"]
         },
 
         {
             "name": "Dave Cridland",
-            "jids": ["dwd@dave.cridland.net"]
+            "jids": ["dwd@dave.cridland.net"],
+            "roles": ["board"]
         },
 
         {
@@ -115,11 +110,15 @@
             "name": "Martin Dosch",
             "jids": ["martin@mdosch.de"]
         },
+        
+        {
+            "name": "Yvo Meeres",
+            "jids": ["eevvoor@jabber.fr"]
+        },
 
         {
             "name": "Nicola Fabiano",
-            "jids": ["nicola@nicfab.chat"],
-            "roles": ["board"]
+            "jids": ["nicola@nicfab.chat"]            
         },
 
         {
@@ -199,11 +198,6 @@
         },
 
         {
-            "name": "Ali Mattouk",
-            "jids": ["xnamed@jix.im", "admin@jabber.eu.org"]
-        },
-
-        {
             "name": "Edward Maurer",
             "jids": ["emus@jabbers.one"],
             "roles": ["board", "commteam"]
@@ -227,13 +221,19 @@
         },
 
         {
+            "name": "Benson Muite",
+            "jids": ["benson_muite@disroot.org"]
+        },
+
+        {
             "name": "Mathieu Pasquet",
             "jids": ["mathieui@mathieui.net"]
         },
 
         {
             "name": "Jérôme Poisson",
-            "jids": ["goffi@jabber.fr"]
+            "jids": ["goffi@jabber.fr"],
+            "roles": ["council"]
         },
 
         {
@@ -254,7 +254,7 @@
         {
             "name": "Peter Saint-Andre",
             "jids": ["stpeter@jabber.org"],
-            "roles": ["treasurer", "registrar", "infrastructure", "board"]
+            "roles": ["treasurer", "registrar", "infrastructure"]
         },
 
         {
@@ -265,7 +265,8 @@
 
         {
             "name": "Florian Schmaus",
-            "jids": ["flo@geekplace.eu"]
+            "jids": ["flo@geekplace.eu"],
+            "roles": ["board"]
         },
 
         {
@@ -291,7 +292,8 @@
 
         {
             "name": "Arne-Bruen Vogelsang",
-            "jids": ["arne-bruen@monocles.de"]
+            "jids": ["arne-bruen@monocles.de"],
+            "roles": ["board"]
         },
 
         {
@@ -328,7 +330,7 @@
         {
             "name": "Matthew Wild",
             "jids": ["me@matthewwild.co.uk"],
-            "roles": ["ed", "board", "infrastructure"]
+            "roles": ["ed", "infrastructure"]
         },
 
         {
